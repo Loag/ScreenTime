@@ -10,5 +10,5 @@ watcher.start();
 ```
 
 ### Coming soon:
-local storage
-perodically save to db
+* local storage
+* perodically save to db
