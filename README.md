@@ -1,2 +1,14 @@
 # ScreenTime
-Simple drop in to log the time in ms a div is inside the screen bounds
+Simple drop in, no dependencies, screen time logger.
+
+### Usage:
+```
+let watcher = ScreenTime();
+
+watcher.add(document.getElementById('A_DIV_ID'));
+watcher.start();
+```
+
+### Coming soon:
+local storage
+perodically save to db
